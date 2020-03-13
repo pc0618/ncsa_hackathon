@@ -10,12 +10,12 @@ Our PCA implementation is included in PCA.ipynb
 # Development
 
 
-The Machine Learning model was trained on all of the imagees within the /home/hackathon/output_64_Javier_labelled/ directory provided on HAL that contained Groud Truths that 
+The Machine Learning model was trained on all of the images within the /home/hackathon/output_64_Javier_labelled/ directory provided on HAL that contained Ground Truths that 
 were classified as "Good", i.e. "1". In total, the model was trained on 115 images.
 
 The dataset for this model was created by converting all 115 images and their corresponding 43 bands into a Pandas dataframe containing 115 * 64 * 64 (64 is the 
-width and height of the images) rows and 43 columns, for a total of **20,254,720** datapoints. A 44th column was added by with the corresponding pixel value
-of the Ground Truth value by converting values from the Image_Classification (Groud Truth image) to either 0 (if the value was 0) or 1 (if the value was 1,2, or 3).
+width and height of the images) rows and 43 columns, for a total of **20,254,720** datapoints. A 44th column was added, with the corresponding Ground Truth values
+by converting values from the Image_Classification (Groud Truth image) to either 0 (if the value was 0) or 1 (if the value was 1,2, or 3).
 
 
 A Logistic Regression model using all 43 bands was then trainied to classify each pixel in each image as either 0 or 1 based on the Ground Truth (44th) column. 
