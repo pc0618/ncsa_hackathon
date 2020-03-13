@@ -33,23 +33,38 @@ The following are the accuracy scores of our model on the new images (not from t
 provided after the conclusion of the hackathon.
 
 image_0: 100%
+
 image_12: 100%
+
 image_17: 100%
+
 image_24: 79.46%
+
 image_59: 98.73%
+
 image_119: 99.05%
+
 image_130: 98.36%
+
 image_145 99.71%
+
 image_157: 99.39%
+
 image_162: 98.68%
+
 image_170: 98.22%
+
 image_178: 99.41%
 
 
 # Team
 
 Pranshu Chaturvedi
+
 Rohan Prasad
+
 Rutu Patel
+
 Shashank Mahesh
+
 Gaurav Krishnan
