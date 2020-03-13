@@ -6,9 +6,12 @@ Presentation Link (sign in with @illinois.edu): https://docs.google.com/presenta
 The presentation includes the rationale for choosing a Machine Learning approach over a Deep Learning approach for this specific problem.
 
 Our PCA implementation is included in PCA.ipynb
-#Development
-The Machine Learning model was trained on all of the imagees within the /home/hackathon/output_64_Javier_labelled/ directory provided on HAL that contained Groud Truths that were 
-classified as "Good", i.e. "1". In total, the model was trained on 115 images.
+
+# Development
+
+
+The Machine Learning model was trained on all of the imagees within the /home/hackathon/output_64_Javier_labelled/ directory provided on HAL that contained Groud Truths that 
+were classified as "Good", i.e. "1". In total, the model was trained on 115 images.
 
 The dataset for this model was created by converting all 115 images and their corresponding 43 bands into a Pandas dataframe containing 115 * 64 * 64 (64 is the 
 width and height of the images) rows and 43 columns, for a total of **20,254,720** datapoints. A 44th column was added by with the corresponding pixel value
@@ -21,7 +24,7 @@ For generating visuals, we plotted the Image_Classification (Groud Truth image) 
 rows back to a numpy array of 64 * 64 and plotting that array.
 
 
-#Accuracy
+# Accuracy
 
 
 The accuracy of our model on a test dataset consisting of 20% of all of the rows from our pandas dataframe is **97.5%**.
@@ -43,7 +46,7 @@ image_170: 98.22%
 image_178: 99.41%
 
 
-#Team
+# Team
 
 Pranshu Chaturvedi
 Rohan Prasad
